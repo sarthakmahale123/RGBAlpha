@@ -1,0 +1,79 @@
+.quiz-container {
+    max-width: 800px;
+    margin: 5rem auto;
+    padding: 20px;
+    background-color: #e2e2e2;
+    border: 3px solid #ffffff;
+    border-radius: 5px;
+    border-radius: 5%;
+    
+  }
+  
+  .quiz-question h1 {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+  }
+  
+  .options-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .option-item {
+    padding: 10px;
+    margin: 10px 0;
+    
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    background-color: white;
+    color: black;
+  }
+  
+  .option-item:hover {
+    background-color: #342e2e;
+    color:white;
+    
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .prev-button,
+  .next-button,
+  .submit-button {
+    flex: 1; /* Let the buttons share the available space equally */
+    padding: 10px 20px;
+    background-color: #458fac;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .prev-button:hover,
+  .next-button:hover,
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add margin to create spacing between buttons */
+  .prev-button {
+    margin-right: 10px;
+  }
+  
+  .next-button {
+    margin-right: 10px;
+  }
+  .selected{
+    background-color: #342e2e;
+    color:white;
+
+
+  }
